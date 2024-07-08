@@ -1,0 +1,117 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: var(--txt);
+
+    /* outline: 1px solid red; */
+}
+
+@font-face {
+    font-family: 'Norse Bold';
+    src: url('https://db.onlinewebfonts.com/t/7d460b18433753a097e5bc2bad7c8dd9.eot');
+    src: url('https://db.onlinewebfonts.com/t/7d460b18433753a097e5bc2bad7c8dd9.eot?#iefix')
+            format('embedded-opentype'),
+        url('https://db.onlinewebfonts.com/t/7d460b18433753a097e5bc2bad7c8dd9.woff2')
+            format('woff2'),
+        url('https://db.onlinewebfonts.com/t/7d460b18433753a097e5bc2bad7c8dd9.woff')
+            format('woff'),
+        url('https://db.onlinewebfonts.com/t/7d460b18433753a097e5bc2bad7c8dd9.ttf')
+            format('truetype'),
+        url('https://db.onlinewebfonts.com/t/7d460b18433753a097e5bc2bad7c8dd9.svg#Norse Bold')
+            format('svg');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh; /* Make sure the body takes up the full height of the viewport */
+}
+
+.left-section {
+    width: 37%;
+    /* Optional: Set a background color for the left section */
+}
+
+.right-section {
+    width: 60%;
+    background-color: #ffffff;
+    display: grid;
+    flex-direction: column;
+    grid-template-rows: repeat(3, 1fr);
+}
+
+img {
+    max-width: 100%;
+    max-height: 100vh; /* Set maximum height to the viewport height */
+    width: auto; /* Maintain aspect ratio */
+    height: auto;
+}
+
+.horizontal:nth-child(1) {
+    margin-left: 15px;
+    align-self: flex-end;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.horizontal:nth-child(2) {
+    margin-left: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.horizontal:nth-child(3) {
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Split into two columns */
+    gap: 10px;
+}
+
+.grid-item {
+    width: 100%; /* Each grid item takes up full width of its column */
+}
+
+button {
+    background-color: #596d48;
+    border-radius: 4px;
+    padding: 15px 32px;
+    border: none;
+    color: white;
+}
+
+.rectangle {
+    position: absolute;
+    top: 150px;
+    left: 0px;
+    width: 375px;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#logo {
+    height: 100px;
+    width: 70px;
+    margin-left: 100px;
+}
+
+span[name='buttonlogin'] {
+    color: #596d48;
+}
+
+span[name='title2'] {
+    font-weight: bold;
+}
+
+span[name='odinLogo'] {
+    font-family: 'Norse Bold', sans-serif;
+    font-size: 45px;
+    color: white;
+    position: absolute;
+    margin-top: 25px;
+}
