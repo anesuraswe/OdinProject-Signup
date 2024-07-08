@@ -1,2 +1,2 @@
 # OdinProject-Signup
-Podin project signup form assignment
+Odin project signup form assignment
