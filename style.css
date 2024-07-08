@@ -30,6 +30,12 @@ body {
     height: 100vh; /* Make sure the body takes up the full height of the viewport */
 }
 
+label {
+    margin-top: 4;
+    margin-bottom: auto;
+    font-size: 12px;
+}
+
 .left-section {
     width: 37%;
     /* Optional: Set a background color for the left section */
