@@ -91,7 +91,7 @@ img {
 button {
     background-color: #596d48;
     border-radius: 4px;
-    padding: 15px 32px;
+    padding: 10px 20px;
     border: none;
     color: white;
 }
@@ -117,7 +117,6 @@ span[name='buttonlogin'] {
 
 span[name='title2'] {
     font-weight: bold;
-    margin-bottom: 15px;
 }
 
 span[name='odinLogo'] {
