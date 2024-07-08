@@ -57,7 +57,9 @@ img {
     width: auto; /* Maintain aspect ratio */
     height: auto;
 }
-
+.horizontal {
+    padding: 10px;
+}
 .horizontal:nth-child(1) {
     margin-left: 15px;
     align-self: flex-end;
