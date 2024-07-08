@@ -1,74 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Odin Signup Form</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="left-section">
+      <img
+        src="https://images.unsplash.com/photo-1585202900225-6d3ac20a6962?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        alt="bg-image"
+      />
+      <div class="rectangle">
         <img
-            src="https://images.unsplash.com/photo-1585202900225-6d3ac20a6962?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-            alt="bg-image"
+          src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png"
+          alt="odin logo"
+          id="logo"
         />
-        <div class="rectangle">
-            <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png" alt="odin logo" id="logo" />
-            <span name="odinLogo">Odin</span>
-        </div>
+        <span name="odinLogo">Odin</span>
+      </div>
     </div>
     <div class="right-section">
-        <div class="horizontal">
-            This is not a real online service! You know you need something
-            like this in your life to help you realize your deepest dream
-            Sign up to get started!<br /><br />
-            You know you want to.<br />
+      <div class="horizontal">
+        This is not a real online service! You know you need something like this
+        in your life to help you realize your deepest dream Sign up to get
+        started!<br /><br />
+        You know you want to.<br />
+      </div>
+      <div class="horizontal">
+        <span name="title2">Let's do this!</span><br />
+        <div class="grid-container">
+          <div class="grid-item">
+            <label for="firstname">FIRST NAME</label><br />
+            <input type="text" id="fname" name="fname" /><br />
+          </div>
+          <div class="grid-item">
+            <label for="lastname">LAST NAME</label><br />
+            <input type="text" id="lname" name="lname" /><br />
+          </div>
+          <div class="grid-item">
+            <label for="email">EMAIL</label><br />
+            <input type="email" id="email" name="email" /><br />
+          </div>
+          <div class="grid-item">
+            <label for="password">PASSWORD</label><br />
+            <input type="password" id="password" name="password" /><br />
+          </div>
+          <div class="grid-item">
+            <label for="phoneNumber">PHONE NUMBER</label><br />
+            <input type="number" id="phone" name="phone" /><br />
+          </div>
+          <div class="grid-item">
+            <label for="password">CONFIRM PASSWORD</label><br />
+            <input type="password" id="password" name="password" /><br />
+          </div>
         </div>
-        <div class="horizontal">
-            <span name="title2">Let's do this!</span><br />
-            <div class="grid-container">
-                <div class="grid-item">
-                    <label for="firstname">FIRST NAME</label><br />
-                    <input type="text" id="fname" name="fname" /><br />
-                </div>
-                <div class="grid-item">
-                    <label for="lastname">LAST NAME</label><br />
-                    <input type="text" id="lname" name="lname" /><br />
-                </div>
-                <div class="grid-item">
-                    <label for="email">EMAIL</label><br />
-                    <input type="email" id="email" name="email" /><br />
-                </div>
-                <div class="grid-item">
-                    <label for="password">PASSWORD</label><br />
-                    <input
-                        type="password"
-                        id="password"
-                        name="password"
-                    /><br />
-                </div>
-                <div class="grid-item">
-                    <label for="phoneNumber">PHONE NUMBER</label><br />
-                    <input type="number" id="phone" name="phone" /><br />
-                </div>
-                <div class="grid-item">
-                    <label for="password">CONFIRM PASSWORD</label><br />
-                    <input
-                        type="password"
-                        id="password"
-                        name="password"
-                    /><br />
-                </div>
-            </div>
-        </div>
-        <div class="horizontal">
-            <button>Create Account</button><br /><br />
-            <label
-                >Already have an account?
-                <span name="buttonlogin">Log in</span></label
-            >
-        </div>
+      </div>
+      <div class="horizontal">
+        <button>Create Account</button><br /><br />
+        <label
+          >Already have an account?
+          <span name="buttonlogin">Log in</span></label
+        >
+      </div>
     </div>
-
-</body>
+  </body>
 </html>
